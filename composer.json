@@ -1,0 +1,24 @@
+{
+    "name": "muvi/facebook",
+    "description": "Extends Facebook Graph SDK for PHP to return filesize for remote files",
+    "keywords": ["Facebook", "Facebook SDK", "PHP"],
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "facebook/graph-sdk": "^5.7"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Suraj Kumar Mohapatra",
+            "email": "chhapanbhogi@gmail.com",
+            "homepage": "https://surajmohapatra.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FacebookExtended\\": "src/FacebookExtended/"
+        }
+    }
+}
