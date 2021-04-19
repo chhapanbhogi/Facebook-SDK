@@ -24,7 +24,7 @@
 
 namespace FacebookExtended\FileUpload;
 
-use Facebook\FileUpload\FacebookVideo as FbVideo;
+use FacebookExtended\FileUpload\FacebookFile;
 
 /**
  * Extends the base FacebookVideo class from Facebook Graph SDK package
@@ -36,7 +36,7 @@ use Facebook\FileUpload\FacebookVideo as FbVideo;
  * @package  MuviFacebook
  */
 
-class FacebookVideo extends FbVideo
+class FacebookVideo extends FacebookFile
 {
     /**
      * Return the size of the file.
